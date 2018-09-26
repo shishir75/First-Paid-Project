@@ -1,0 +1,310 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Robato', sans-serif;
+    color: white;
+}
+#home {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/1.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    background-attachment: fixed;
+}
+
+.logo img{
+  height: 70px;
+  width: 70px;
+}
+
+#services {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/2.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    background: none;
+}
+#section-jumbotron {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+/************** Navbar Styles *******************/
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+.nav-item li a {
+    color: white;
+}
+.nav-item li a:hover {
+    color: gray;
+}
+
+
+.navbar-dark a .navbar-text {
+  color: white;
+  font-size: 14px;
+  line-height: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar-dark a:hover .navbar-text {
+    color: #0069D9;
+}
+.navbar-dark .active a .navbar-text {
+    color: #92C65A !important;
+}
+a.nav-link {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.dropdown-menu{
+  margin-top: 13px;
+  padding: 0px;
+}
+
+.dropdown-item{
+  background-color: #000;
+  color: #fff;
+}
+
+
+.bg-company-red {
+  background-color: black;
+  color: white;
+  opacity: .65;
+}
+
+
+
+/************** Multi Dropdown Styles *******************/
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+
+
+
+
+
+
+/************** Journey Section Styles *******************/
+
+#journey_section{
+	position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/5.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+}
+
+.portfolio_menu{
+	text-align: center;
+}
+.portfolio_menu ul li{
+	display: inline-block;
+	margin: 0;
+	color: white;
+	list-style: none;
+	padding: 10px 15px;
+	border: 1px solid tomato;
+	cursor: pointer;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.portfolio_menu ul li:hover{
+	background: tomato;
+	color: #ffffff;
+}
+
+.portfolio_item{
+	width: 100%;
+}
+
+.portfolio_item .item{
+	width: 275px;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.portfolio_item .item img{
+	height: 300px;
+	width: 275px;
+}
+
+.portfolio_menu .active{
+	background-color: tomato;
+	color: white;
+}
+
+/*Social Styles*/
+
+.social_area{
+	background-color: #000000;
+	color: #6588A0;
+}
+
+.social{
+  text-align: center;
+	margin-top: 20px;
+}
+
+.social a{
+  margin: 0px 10px 0px 0px;
+  color: #ffffff;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  line-height: 30px;
+  font-size: 30px;
+  text-align: center;
+  transition: all 0.2s ease-out;
+  vertical-align: bottom;
+  background-color: #6588A0;
+}
+
+.social a i{
+	margin-top: 8px;
+}
+
+
+#profession{
+	background-color: #000000;
+	color: #ffffff;
+	padding-top: 25px;
+
+}
+
+.professional_heading{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	text-transform: uppercase;
+	color: #5B7B90;
+}
+
+#profession img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+#profession p{
+	padding-bottom: 100px;
+}
+
+
+/************** Services Section Styles *******************/
+
+#fashion_section{
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/5.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+}
+
+#fashion_section img{
+  height: 250px;
+  width: 100%;
+}
+
+
+
+.slider_image img{
+  height: 400px;
+}
+
+
+footer{
+	background-color: #161616;
+	color: white;
+	padding: 25px 0px;
+}
+
+footer p{
+	margin-top: 10px;
+}
+
+
+@media (max-width: 991px) {
+	footer {
+		text-align: center;
+	}
+}
